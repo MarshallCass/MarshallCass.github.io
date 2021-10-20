@@ -5,40 +5,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 
 <body>
+<div id="header" class="header">
+    <div id="navbar">
+       <ul> 
+        <a href="#hero-area">Home</a></li>
+        <a href="#about-me">About Me</a>
+        <a href="#project-area">Projects</a>
+        <a href="#contact-area">Contact</a>
+        </ul>
+    </div>
+</div>
 
-<home>
-    <span class=" "><image src="images/heroworkspace.jpg" alt= "Desktop Work Space" width="100%" height="auto" /> </span>
-    <H1> Portfolio Site of M Cass</H1>
-</home>
+<div class="content">
+<div id="hero-area" class="hero-area-bg">
+    <div id="hero-img" class="hero-img"><image src="images/heroworkspace.jpg" alt="Desk Work Space" width="100%" height="auto"></div>
+    <h1 class="centered-text"> Portfolio Site of M Cass</h1></div>
+</div>
 
-<aboutme>
-    <h2> About Me: </h2>
+<div id="about-me" class="about-me-bg">
+    <h3> About Me: </h3>
+    <div id="about-me-img" class="about-me-img"><image src="images/about-me-img.jpg" alt="photo of me" width="200" height="auto"></div>
     <p> My name is Marshall Cass, currently residing in central Pennsylvaina.  I'm a father of two, volunteer, buisness owner and studing in software development.</p>
-    <li> United State Marine Corps Veteran </li>
-    <li> Assistant Scout Master, Troop 65</li>
-    <li> Webmaster, Assistant Quarter Master and Junior Vice Commadant - Bob Smith Detatchment Marine Corps League</li>
-</aboutme>
+    <p class="about-list"> - United State Marine Corps Veteran </p>
+    <p class="about-list"> - Assistant Scout Master, Troop 65 </p>
+    <p class="about-list"> - Webmaster, Assistant Quarter Master and Junior Vice Commadant - Bob Smith Detatchment Marine Corps League </p>
+</div>
 
-<projects>
-    <h2> Projects I've worked on:</h2>
-    <h3> <i>Git Hub Links Below</i></h3>
-    <li> <a href="https://github.com/MarshallCass/Day_Trip_Gen_Project"> Day Trip Generator </a> </li>
-    <li> <a href="https://github.com/MarshallCass/Most_Wanted"> Most Wanted Person Search </a> </li>
-    <li> <a href="https://github.com/MarshallCass/RPSLS"> Rock, Paper, Scissors, Lizard, Spock </a> </li>
+<div id="project-area" class="project-bg">
+    <h3> Projects I've worked on:</h3>
+    <h4><i>Git Hub Links Below</i></h4>
+    <p> <a href="https://github.com/MarshallCass/Day_Trip_Gen_Project" target="_blank"> Day Trip Generator </a> -- A program to randomly select a day trip.</p>
+    <p> <a href="https://github.com/MarshallCass/Most_Wanted" target="_blank"> Most Wanted Person Search </a> -- A program to find most wanted people and their family relations.</p>
+    <p> <a href="https://github.com/MarshallCass/RPSLS" target="_blank"> Rock, Paper, Scissors, Lizard, Spock </a> -- A fun game to play with a friend or against the computer.</p> 
+    <!-- Future Projects Below -->
+    <!-- <p> <a href="https://github.com/MarshallCass/ " target="_blank"> Day Trip Generator </a> -- future project</p>
+    <p> <a href="https://github.com/MarshallCass/ " target="_blank"> Most Wanted Person Search </a> -- future project</p>
+    <p> <a href="https://github.com/MarshallCass/ " target="_blank"> Rock, Paper, Scissors, Lizard, Spock </a> -- future prject</p>  -->
+</div>
 
-</projects>
-
-<contact>
-    <h2> Contact Me:</h2>
+<div id="contact-area" class="contact-area-bg">
+    <h3> Contact Me:</h3>
     <p><a href="mailto:Marshall.Cass@live.com"> Click to send an email</a></p>
 
-</contact>
-
+</div>
+</div>
 </body>
-
+<script src="assets.js"></script>
 </html>
